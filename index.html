@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <label for="letterInput">Enter your guess</label>
+    <input name="letterInput" maxlength="1" type="text" id="letterInput" />
+    <button onclick="guessTheWord()">Guess</button>
+    <button onclick="start()">Start / Restart</button>
+
+    <h4>Lives left:</h4>
+    <span id="life">6</span>
+    <h4>Letters Used:</h4>
+    <span id="usedLetters">-</span>
+    <h4>Progress:</h4>
+    <span id="progress"></span>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
